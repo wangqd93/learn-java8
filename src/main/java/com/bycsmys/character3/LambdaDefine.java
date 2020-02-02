@@ -4,15 +4,17 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 
 /**
- * lambda 表达式 对应的class 是什么
  * <p>
- * 通过下面例子可以看出：
- * 1、lambda 表达式对应的class对象是lambda 的代理
- * 2、lambda 表达式的superClass 是 Object
- * 3、lambda 表达式的classloader 是 appClassLoader
- * 4、lambda 表达式在用法上和匿名内部类很相似，但是对应的class不同
+ * lambda 表达式 对应的class 是什么
+ * </p>
  *
- * 相关lambda 如何编译可以查看stackoverflow
+ * 通过下面例子可以看出：
+ * <p>1、lambda 表达式对应的class对象是lambda 的代理</p>
+ * <p>2、lambda 表达式的superClass 是 Object</p>
+ * <p>3、lambda 表达式的classloader 是 appClassLoader</p>
+ * <p>4、lambda 表达式在用法上和匿名内部类很相似，但是对应的class不同</p>
+ *
+ * <p>相关lambda 如何编译可以查看stackoverflow</p>
  * @see <a href="https://stackoverflow.com/questions/16827262/how-will-java-lambda-functions-be-compiled">https://stackoverflow.com/questions/16827262/how-will-java-lambda-functions-be-compiled</a>
  * @see <a href="http://cr.openjdk.java.net/~briangoetz/lambda/lambda-translation.html">http://cr.openjdk.java.net/~briangoetz/lambda/lambda-translation.html</a>
  *
