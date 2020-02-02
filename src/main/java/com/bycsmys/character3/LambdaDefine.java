@@ -12,6 +12,11 @@ import java.util.function.Function;
  * 3、lambda 表达式的classloader 是 appClassLoader
  * 4、lambda 表达式在用法上和匿名内部类很相似，但是对应的class不同
  *
+ * 相关lambda 如何编译可以查看stackoverflow
+ * @see <a href="https://stackoverflow.com/questions/16827262/how-will-java-lambda-functions-be-compiled">https://stackoverflow.com/questions/16827262/how-will-java-lambda-functions-be-compiled</a>
+ * @see <a href="http://cr.openjdk.java.net/~briangoetz/lambda/lambda-translation.html">http://cr.openjdk.java.net/~briangoetz/lambda/lambda-translation.html</a>
+ *
+ *
  * @Author wangqd
  * @DATE 2020-02-02
  */
