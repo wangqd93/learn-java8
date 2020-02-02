@@ -49,9 +49,5 @@ public class LambdaDefine {
         System.out.println("innerConsumer.getClass().getName():" + innerConsumer.getClass().getName());//com.bycsmys.character3.LambdaDefine$1
         System.out.println("nnerConsumer.getClass().getSuperclass().getName():" + innerConsumer.getClass().getSuperclass().getName());//java.lang.Object
         System.out.println("innerConsumer.getClass().getClassLoader():" + innerConsumer.getClass().getClassLoader());//jdk.internal.loader.ClassLoaders$AppClassLoader@512ddf17
-
-
     }
-
-
 }
