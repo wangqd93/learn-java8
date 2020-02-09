@@ -26,6 +26,24 @@ public class FlatMapTest {
                 .flatMap(l -> list2.stream().map(l2 -> "(" + l + "," + l2 + ")"))
                 .forEach(System.out::println);
 
+        System.out.println("-------");
+
+        Stream.of("1","2","3").filter(i -> "4".equals(i))
+                .findAny().ifPresentOrElse(FlatMapTest::print,()-> test());
 
     }
+
+
+    public static void test(){
+        return;
+    }
+
+    public static void print(String s){
+        System.out.println(s);
+    }
+
+
+
+
 }
+
