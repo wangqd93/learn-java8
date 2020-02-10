@@ -26,7 +26,4 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
-.gitignore
-src/main/java/com/bycsmys/util/
-src/main/resources/
 src/test/
