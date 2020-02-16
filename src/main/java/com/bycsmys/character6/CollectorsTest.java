@@ -78,5 +78,8 @@ public class CollectorsTest {
         //Collectors.partitioningBy 根据age 分区
         Map<Boolean, List<User>> agePartition = users.stream().collect(Collectors.partitioningBy(user -> user.getAge() > 30));
         System.out.println("---------------");
+
+
+        List<String> userNameList = users.stream().collect(Collectors.mapping(User::getUserName, Collectors.toList()));
     }
 }
